@@ -1,0 +1,3 @@
+function mostraAlertaSSM(){
+  alert("Alerta!");
+}
