@@ -1,5 +1,6 @@
 .botonsSSM {
    display: flex;
+   justify-content: space-between;
  }
 
  .elementOcultSSM {
