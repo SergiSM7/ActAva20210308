@@ -1,3 +1,11 @@
-.botonsJPC {
+.botonsSSM {
    display: flex;
  }
+
+ .elementOcultSSM {
+  display: none;
+}
+
+.elementVisibleSSM {
+  display: flex;
+}
