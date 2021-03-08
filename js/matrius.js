@@ -4,7 +4,7 @@ let llistaElements = document.getElementById("llistaElements");
 function afegirElementAColleccio(){
   let elementAAfegir = document.getElementById("elementAAfegir");
   colleccioElements.push(elementAAfegir.value);
-  alert("Element " + elementAAfegir.value + " agfegit correctament " + "\na la posició " + colleccioElements.indexOf(elementAAfegir.value))
+  alert("Element " + elementAAfegir.value + " afegit correctament " + "\na la posició " + colleccioElements.indexOf(elementAAfegir.value))
 }
 
 function mostrarElementsDeLaColleccio(){
