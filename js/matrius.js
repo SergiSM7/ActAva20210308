@@ -4,7 +4,12 @@ let llistaElements = document.getElementById("llistaElements");
 function afegirElementAColleccio(){
   let elementAAfegir = document.getElementById("elementAAfegir");
   colleccioElements.push(elementAAfegir.value);
-  alert("Element " + elementAAfegir.value + " afegit correctament " + "\na la posició " + colleccioElements.indexOf(elementAAfegir.value))
+  if (elementAAfegir.value == ""){
+    alert("No hi ha cap dada!!");
+  }else{
+    alert("Element " + elementAAfegir.value + " afegit correctament " + "\na la posició " + colleccioElements.indexOf(elementAAfegir.value))
+
+  }
 }
 
 function mostrarElementsDeLaColleccio(){
